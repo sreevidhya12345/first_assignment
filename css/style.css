@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    height: 80px;
+}
+.nav-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ text-align: center;
+
+}
+/* .carousel .item {
+  height: 100%;
+} */
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+}
+
+
+
+.carousel-caption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+
+
+
+  .sign {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+  
+  .card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+    background-size: cover;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  .card{
+    border: 5px solid green;
+  }
