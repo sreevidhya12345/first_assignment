@@ -18,9 +18,14 @@
 }
 .card{
     margin-top: 2%;
+    height: 40rem;
+    min-height: 40rem;
 }
-.row h3{
+.row h4{
     text-align: center;
     text-transform: uppercase;
     color: dodgerblue;
+}
+.card img{
+    height: 18rem;
 }
