@@ -19,7 +19,7 @@
   height: 100%;
 } */
 .carousel-item {
-  height: 95vh;
+  height: 35rem;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -34,7 +34,7 @@
     left: 0;
     min-height: 100%;
 }
-
+/* 95vh */
 
 
 .carousel-caption{
@@ -76,4 +76,7 @@
   }
   .card{
     border: 5px solid green;
+  }
+  .card img{
+    height: 13rem;
   }
