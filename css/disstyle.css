@@ -20,6 +20,9 @@
     margin-top: 2%;
     height: 40rem;
     min-height: 40rem;
+    border-color: green;
+    border: 2px solid;
+    
 }
 .row h4{
     text-align: center;
