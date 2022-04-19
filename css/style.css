@@ -9,7 +9,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-
 .container {
   font-family: Georgia, 'Times New Roman', Times, serif;
  text-align: center;
@@ -80,3 +79,9 @@
   .card img{
     height: 13rem;
   }
+  /* sign up validation */
+  .displayBadge{
+    margin-top: 5%; 
+    display: none; 
+    text-align :center;
+}
