@@ -11,7 +11,7 @@ function validate()
   let regexp= /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/
   if(email.value.trim()==""||password.value.trim()=="")
   {
-      alert("Fields canoot be empty");
+      alert("Fields cannot be empty");
       return false;
       
   }
